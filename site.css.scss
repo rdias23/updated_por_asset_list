@@ -1,9 +1,11 @@
 
 body{
   margin: 0px;
+  background: lightblue;
   div#main_block {
     height: 400px;
-    background-color: white;
+    // background-color: white;
+    background-color: transparent;
     h1{
       font-size: 44px;
       font-weight: 300;
@@ -399,7 +401,8 @@ body{
     // float:left;
     margin:0;
     padding:5px 10px;
-    background:#fff;
+    // background:#fff;
+    background:lightblue;
     text-decoration:none;
     color:#000;
     border-top:1px solid #369;
@@ -425,7 +428,8 @@ body{
     position:relative;
     bottom:0;
     padding:10px;
-    background:#fff;
+    // background:#fff;
+    background:lightblue;
     color:#000;
     font-weight:bold;
   }
