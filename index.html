@@ -1,0 +1,588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Asset List</title>
+
+<link href="site.css" rel="stylesheet">
+<link href="fancybox/jquery.fancybox-1.3.4.css" rel="stylesheet">
+
+<script src="_js/jquery-1.8.3.min.js"></script>
+<script src="_js/jquery.easing.1.3.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.min.js"></script>
+
+<div id="banner">
+</div>
+</head>
+
+<body>
+<div id="main_block">
+  <h1 style="font-size: 21px;"> Projects & Features </h1>
+<span style="display: block; width: 100px; margin: 0 auto; font-style: italic;">...by Ray Dias</span>
+    <div id="abstract_asset_list">
+	<span style="font-weight: bold;">Abstract</span>: Herein described are various projects, and features, implemented by Ray Dias, between May 2014 and the present. The most recent projects described herein are "GYDR Finder" and "Tour Availabilities". The <u>single biggest project by far is Travelogues </u> or, more precisely, the Interactive Itinerary Authoring Tool used to create Travelogues. Code Links are samples only, and do not represent all relevant code.
+      </p>
+      <p>
+	Project code is in a private repository; consequently, all relevant code snippets have been posted via <a href="https://help.github.com/articles/creating-gists/">gist links</a>.
+      </p>
+
+      <p>
+	       <a href="http://pictoura-staging.herokuapp.com" style="color: rgb(85, 26, 139);">Pictoura.com</a> was originally a photo-sharing website (Rails 3.2) aimed at Travel and Photography Enthusiasts and Professionals. Currently it is being rennovated to function as a service that enables laymen and professionals to market themselves as Tour Guides. These Tour Guides are called GYDRs.
+      </p>
+      <p>
+        A recent development build of the GYDR Project can be accessed at the Staging URL: <a href="http://pictoura-staging.herokuapp.com" style="color: rgb(85, 26, 139);">http://pictoura-staging.herokuapp.com</a>
+	<span>
+	If you want to look at anything besides the Home Page, you'll be prompted for credentials: type in the username 'guest' and the password 'welcome1111' (the quote marks are not to be included).
+	</span>
+      </p>
+      <p>
+        GYDR Software Design Document (written by me) can be downloaded from here: <a href="./documents/gydr_software_design_doc.zip">gydr_software_design_doc.zip</a>
+      </p>
+      <p>
+	A portfolio of projects I completed when I first started learning Web Dev can be found here:  <a href="../learning">Learning Projects</a>
+      </p>
+    </div>
+
+    <div id="under_block">
+	      <div id="under_block_menu">
+
+          <div id="boxtab-blue">
+            <ul>
+              <li id="li_projects" class="first active"><a href="#" style="margin-right: 1px"><span>Projects</span></a></li>
+              <li id="li_features" class=""><a href="#" style="margin-right: 1px"><span>Features</span></a></li>
+              <!-- <li><a href="#"><span>About Us</span></a></li> -->
+              <li id="li_responsive" class="last"><a href="#"><span>Responsive</span> <span id="resp_hide"> Design</span></a></li>
+            </ul>
+          </div>
+
+            <div style="clear: both;">
+            </div>
+
+          </div>
+
+          <div id="under_block_inner">
+
+            <div id="ubi_features">
+
+              <!-- Here are some Features. -->
+
+              <div class="ubi_features_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/flip_placard.png" title=" Check out these fancy flip placards at <a href='http://www.pictoura.com/users/search_friends'> http://www.pictoura.com/users/search_friends </a>" ><img src="images/flip_placard.png" alt="flip_placard_pic" class="ubi_features_block_img flip_placard_img" > </a>
+
+                <div class="ubi_features_block_header flip_placard_header" style="width: 100%; width: -webkit-calc(100% - 647px); width: -moz-calc(100% - 647px); width: calc(100% - 647px);">
+                  <h1> Flip Placards</h1>
+                </div>
+
+                <div class="ubi_features_block_description flip_placard_description" style="width: 100%; width: -webkit-calc(100% - 647px); width: -moz-calc(100% - 647px); width: calc(100% - 647px);">
+                  <p>
+                    <span class="bold_lead">Feature Description</span>: Users are represented by their "placards" throughout the site, but the dedicated placard page is at <a href="http://www.pictoura.com/users/search_friends">http://www.pictoura.com/users/search_friends</a>. These new placard designs feature the User's avatar image on the front, and the User's four most recent uploads on the back. Click the avatar image to go to the User's profile, click an individual image to go to that image's dedicated page, or click the backside center bar to go to see a listing of all the User's images. (uses Jquery Transit)
+                  </p>
+                </div>
+
+                <div class="ubi_features_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/784584c53aac6b8a8397" target="_blank">/app/controllers/users_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/9edaa86dddd0c4bb00fd" target="_blank">/app/views/users/search_friends.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/3de30c077738e2b0719f" target="_blank">/app/views/users/_search_list.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/e5c106ce4b83321fef5f" target="_blank">/app/views/users/_placards.html.erb</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_features_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/print_license_request.png" title="Ace Members can make money like this!" ><img src="images/print_license_request.png" alt="print_license_request_pic" class="ubi_features_block_img license_request_img" > </a>
+
+                <div class="ubi_features_block_header license_request_header" style="width: 100%; width: -webkit-calc(100% - 670px); width: -moz-calc(100% - 670px); width: calc(100% - 670px);">
+                  <h1> License Requests</h1>
+                </div>
+
+                <div class="ubi_features_block_description license_request_description" style="width: 100%; width: -webkit-calc(100% - 670px); width: -moz-calc(100% - 670px); width: calc(100% - 670px);">
+                  <p>
+                    <span class="bold_lead">Feature Description</span>: Users with Ace Memberships have "Print/License Request" buttons on their Image pages. When a User submits the "Print/License Request" form (pictured), the Image owner gets notified by email of the request (Admins and the Sender get a copy too!)
+                  </p>
+                </div>
+
+                <div class="ubi_features_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/179162b377df24bbb44e" target="_blank">/app/views/pictoura_images/_request_print_or_license.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/bae8ed45bd3d18acebba" target="_blank">/app/assets/javascripts/pictoura_images/pictoura_request_print_or_license.js</a>
+                    <a href="https://gist.github.com/rdias23/6091b800640d2c2b1baa" target="_blank">/app/mailers/pictoura_image_print_and_or_license_mailer.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/5b32d2f3234e2c1deff5" target="_blank">/app/controllers/pictoura_images_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/6d2fe270a4750bc5332d" target="_blank">/app/views/pictoura_images/show.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/7442b4f61c4965c5fad1" target="_blank">/app/assets/stylesheets/pictoura_image_show.css.scss</a><br/>
+
+                    <br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_features_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/google_analytics.png" title="Google Analytics are fun!"><img src="images/google_analytics.png" alt="google_anal_pic" class="ubi_features_block_img analytics_img" > </a>
+
+                <div class="ubi_features_block_header analytics_header" style="width: 100%; width: -webkit-calc(100% - 400px); width: -moz-calc(100% - 400px); width: calc(100% - 400px);">
+                  <h1>Analytics Module</h1>
+                </div>
+
+                <div class="ubi_features_block_description analytics_description" style="width: 100%; width: -webkit-calc(100% - 400px); width: -moz-calc(100% - 400px); width: calc(100% - 400px);">
+                  <p>
+                    <span class="bold_lead">Feature Description</span>: Track events server-side with a log_event method, defined in the application controller, that stores analytics information in a cookie, used by the Google Analytics module the next time a page renders. Or, tag clickable elements with a "google_trackable" class and attributes to fire events client-side.
+                  </p>
+                </div>
+
+                <div class="ubi_features_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/6d6e9c80d88998302412" target="_blank">/app/assets/javascripts/global/google_analytics_module.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/00eb675c82b7f77dc30d" target="_blank">/app/controllers/application_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/8f1632542223484de9d2" target="_blank">/app/views/layouts/application.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/a81d5f09559bfbf57e17" target="_blank">/app/views/shared/_google_analytics.html.erb</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_features_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/meta_tags.png" title="This is a meta meta tag!" ><img src="images/meta_tags.png" alt="meta_tags_pic" class="ubi_features_block_img meta_tags_img" > </a>
+
+                <div class="ubi_features_block_header meta_tags_header" style="width: 100%; width: -webkit-calc(100% - 495px); width: -moz-calc(100% - 495px); width: calc(100% - 495px);">
+                  <h1> Tags Helper </h1>
+                </div>
+
+                <div class="ubi_features_block_description meta_tags_description" style="width: 100%; width: -webkit-calc(100% - 495px); width: -moz-calc(100% - 495px); width: calc(100% - 495px);">
+                  <p>
+                    <span class="bold_lead">Feature Description</span>: Devised helper method, meta_tags_helper, for rendering descriptive Page Titles based on Content, thus enabling improved search engine optimization and better link names for social media sharing (i.e. Twitter, Pinterest, Facebook).
+                  </p>
+                </div>
+
+                <div class="ubi_features_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/7186f872b71e4fe12b1f" target="_blank">/app/views/shared/_meta_tags.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/4e92f40b4b31ab4c112d" target="_blank">/app/helpers/meta_tags_helper.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/8f1632542223484de9d2" target="_blank">/app/views/layouts/application.html.erb</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div id="ubi_projects">
+
+              <!-- Here are some Projects. -->
+              <div class="ubi_project_block" style="margin-top: 0px;">
+
+                <a class="fancybox" rel="travelogue_pics" href="images/interactive_itinerary_1.png" title="The Interactive Itinerary Authoring Tool - aka 'Travelogues'" ><img style="max-width: 365.25px;" src="images/interactive_itinerary_1.png" alt="travelogue_1" class="ubi_project_block_img" > </a>
+                <a class="fancybox" rel="travelogue_pics" style="display: none;" href="images/interactive_itinerary_2.png" title="The Interactive Itinerary Authoring Tool - aka 'Travelogues'" ><img src="images/interactive_itinerary_2.png" alt="travelogue_2" class="ubi_project_block_img" > </a>
+                <a class="fancybox" rel="travelogue_pics" style="display:none;" href="images/interactive_itinerary_3.png" title="The Interactive Itinerary Authoring Tool - aka 'Travelogues'" ><img src="images/interactive_itinerary_3.png" alt="travelogue_3" class="ubi_project_block_img" > </a>
+                <a class="fancybox" rel="travelogue_pics" style="display:none;" href="images/travelogue.png" title="The Interactive Itinerary Authoring Tool - aka 'Travelogues'" ><img src="images/travelogue.png" alt="travelogue_4" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header">
+                  <h1> Travelogues </h1>
+                </div>
+
+                <div class="ubi_project_block_description" style="">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: A sophisticated Single Page Application built with Backbone and Marionette. Used to create Interactive Itineraries (i.e. Travelogues) for Travellers, Vacation Package Vendors, or Tour Guides utilizing the GYDR service. Each Interactive Itinerary is a set of geo-tagged Travelogue Posts (i.e. Tour Stops) accompanied by descriptive text and a set of geo-tagged images (added via a "drag" and "drop" interface). Images may be drawn from the World Gallery, user created Galleries, of uploaded on the spot.
+
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links" style="overflow: hidden;">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/b7db8d3842ede1c32d1effb1d165c8b1" target="_blank" style="">/modules/image_selection_module/views/edit_images_popup_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/12e7f7f9ecfe2581812bbfd4c9a388a7" target="_blank" style="">/modules/image_selection_module/views/layout.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/2d1c01d49105e91873baa3bbf5cec8f3" target="_blank" style="">/modules/travelogue_authoring_ui_manager_module/views/done_selecting_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/2538cee08c2fe8e32f042182c97f22d0" target="_blank" style="">/modules/travelogue_authoring_ui_manager_module/module.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/beb90dfa791b2ed6e1ebd9bc5e6fece6" target="_blank" style="">/modules/travelogue_authoring_module/views/tour_travelogue_post_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/e98a825ce074962747483e3ff5cbd325" target="_blank" style="">/modules/travelogue_authoring_module/views/travelogue_posts_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/e8dfa06f4eb1da681ebcb2c7c32bc41d" target="_blank">/modules/travelogue_authoring_module/views/layout.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/5a13c85107afe143bf09fe5dfa8ec1a5" target="_blank">/modules/travelogue_workbox_module/views/workbox_images_view.js</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block" style="">
+
+                <a class="fancybox" href="images/gydr_finder.png" title="GYDR Finder page at <a href='http://pictoura-staging.herokuapp.com/gydr_finder/index'> http://pictoura-staging.herokuapp.com/gydr_finder/index </a>" ><img src="images/gydr_finder.png" alt="gydr_finder_pic" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header">
+                  <h1> GYDR Finder </h1>
+                </div>
+
+                <div class="ubi_project_block_description">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: GYDRs are layman (and Professional) Tour Guides. GYDR Finder is the UI element responsible for submitting GYDR Search queries. GYDR Search functionality is provided by the Lucene based search engine Elasticsearch via the Searchkick gem.
+                    <br/>
+                    Link: <a href="http://pictoura-staging.herokuapp.com/gydr_finder/index">http://pictoura-staging.herokuapp.com/gydr_finder/index<a/>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links" style="overflow: hidden;">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/278c1131611adf47b2ea96f7fa8642dd" target="_blank">/app/controllers/gydr_finder_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/592bbe31e13605773da728d00235e6b9" target="_blank">/app/models/gydr_profile.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/beb90dfa791b2ed6e1ebd9bc5e6fece6" target="_blank" style="">/modules/travelogue_authoring_module/views/tour_travelogue_post_view.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/57faa47fa4c1233831b628c485e5064c" target="_blank">/app/views/gydr_finder/index.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/1fcb70b4dd0b8b08605b9c0ec5d864ed" target="_blank">/app/assets/javascripts/global/gydr_finder_filter.js</a><br/>
+
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block" style="">
+
+                <a class="fancybox" href="images/GYDR_tour_page.png" title="Tour page at <a href='http://pictoura-staging.herokuapp.com/users/119/tours/9195'> http://pictoura-staging.herokuapp.com/users/119/tours/9195 </a>" ><img style="max-width: 365.25px;" src="images/GYDR_tour_page.png" alt="tour_page_pic" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header">
+                  <h1> Tour Availabilities </h1>
+                </div>
+
+                <div class="ubi_project_block_description">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: Tour Availabilities may be non-recurring, weekly, monthly, or yearly. The Tour page "Booking Box" allows Travellers to filter Availabilities by calendar date. The Tour Request submission process is initiated by clicking on the "Book Now" button, after selecting an Available Time.
+                    <br/>
+                    Link: <a href="http://pictoura-staging.herokuapp.com/users/119/tours/9195">http://pictoura-staging.herokuapp.com/users/119/tours/9195<a/>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/a0e53a2feae732f6157c0a9b80ed3d40" target="_blank">/app/views/tours/show.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/831bd158bccb22952bf69955595d1336" target="_blank">/app/controllers/tours_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/45ee0b535d5fadf778cec186b6c33396" target="_blank">https://gist.github.com/rdias23/45ee0b535d5fadf778cec186b6c33396</a><br/>
+
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block" style="">
+
+                <a class="fancybox" href="images/all_badges.png" title="Badges page at <a href='http://www.pictoura.com/users/127/all_badges'> http://www.pictoura.com/users/127/all_badges </a>" ><img src="images/all_badges.png" alt="trophy_case_pic" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header">
+                  <h1> Badges </h1>
+                </div>
+
+                <div class="ubi_project_block_description">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: In order to incentivize user participation, users are awarded "badges,"--trophies for accomplishing goals. For example, a user may get a "Day Tripper" badge for uploading photos from two different countries, or a user may get an "Active Beta Tester" badge for submitting 10 feedbacks. Users are notified of the achievement with an email.
+                    <br/>
+                    Link: <a href="http://www.pictoura.com/users/127/all_badges">http://www.pictoura.com/users/127/all_badges<a/>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/anonymous/3bfe3c66a7a8966e21e5" target="_blank">/app/observers/badge_observer.rb</a><br/>
+                    <a href="https://gist.github.com/anonymous/948287b7ffd36fad9da2" target="_blank">/app/views/users/all_badges.html.erb</a><br/>
+                    <a href="https://gist.github.com/anonymous/63c2a25d56bef4e1075a" target="_blank">/app/controllers/users_controller.rb</a><br/>
+                    <a href="https://gist.github.com/anonymous/d2b4181fdf1ac8059457" target="_blank">/app/assets/stylesheets/user_all_badges.css.scss</a><br/>
+                    <a href="https://gist.github.com/anonymous/0d63b026e5d1e2051dcd" target="_blank">/app/models/badge.rb with STI</a><br/>
+                    <a href="https://gist.github.com/anonymous/168fbcf1c17a91763399" target="_blank">/app/models/earned_badge.rb</a><br/>
+                    <a href="https://gist.github.com/anonymous/ceae09d3ce65e9f83f63" target="_blank">/app/mailers/badge_mailer.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/af07a70fff202a314a9b" target="_blank">/app/views/mailers/badge_email.html.erb</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block">
+                <a class="fancybox" href="images/ace_profile_authoring_environment.png" title="Ace Profile Authoring Environment"> <img src="images/ace_profile_authoring_environment.png" alt="ace_profile_links_pic" class="ubi_project_block_img ace_profile_links_img" > </a>
+
+                <div class="ubi_project_block_header profile_links_header" style="width: 100%; width: -webkit-calc(100% - 587px); width: -moz-calc(100% - 587px); width: calc(100% - 587px);">
+                  <h1> Ace Profile Links </h1>
+                </div>
+
+                <div class="ubi_project_block_description profile_links_description" style="width: 100%; width: -webkit-calc(100% - 587px); width: -moz-calc(100% - 587px); width: calc(100% - 587px);">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: Ace Memberships are subscription services marketed toward Photography Professionals. One of the bonus feaures of the Ace Membership is the ability to create links to be displayed on the User's Profile Page of three types:<br/>
+                    (1) External Links - Links to external websites.<br/>
+                    (2) PDF Links - Links to download pdf files.<br/>
+                    (3) Rich Text Links - Links to pages created by the User with a WYSIWYG editor. (Pictured)
+
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/c5959b1bbd216ea8c662" target="_blank">/app/views/devise/registrations/edit_custom_pages.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/e4188f55c64e59d2d559" target="_blank">/app/controllers/profile_links_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/8f4932e8b1d433a9edd8" target="_blank">/app/views/devise/registrations/_page_list.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/3cb6ad1c15830cf82ec0" target="_blank">/app/views/devise/registrations/_add_dropdown.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/96aeb600d69dbb61797d" target="_blank">/app/views/profile_links/_new.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/bc85d57fdd2cf5225390" target="_blank">/app/views/profile_links/_edit.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/dc1b0d5f5e593780fc5a" target="_blank">/app/views/profile_links/show.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/bb5bd0b7f478aa1aede4" target="_blank">/app/views/profile_links/*.js.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/6d3a607d15ee0993b1b5" target="_blank">/app/uploaders/file_uploader.rb</a><br/>
+                  </p>
+
+                </div>
+
+              </div>
+
+              <div class="ubi_project_block">
+                <a class="fancybox" href="images/image_show.png" title="Image Show at <a href='http://www.pictoura.com/pictoura_images/47779'>http://www.pictoura.com/pictoura_images/47779</a>"> <img src="images/image_show.png" alt="image_show_pic" class="ubi_project_block_img"> </a>
+
+                <div class="ubi_project_block_header" style="width: 100%; width: -webkit-calc(100% - 236px); width: -moz-calc(100% - 236px); width: calc(100% - 236px);">
+                  <h1> Image Show</h1>
+                </div>
+
+                <div class="ubi_project_block_description" style="width: 100%; width: -webkit-calc(100% - 236px); width: -moz-calc(100% - 236px); width: calc(100% - 236px);">
+                  <p>
+                    <span class="bold_lead">Project Description</span>:Pictoura.com was (before the GYDR pivot) primarily a (geo-tagged) photo-sharing site. Consequently, the new image show page design needed careful execution. It's a complex page with many different states dependant on the status of the viewer and the image owner, and leverages Wikipedia and Yelp APIs.
+
+                    <br/><br/>
+                    Link: <a href="http://www.pictoura.com/pictoura_images/47779">http://www.pictoura.com/pictoura_images/47779</a>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/dc84e3656abc6216bd23" target="_blank">/app/controllers/pictoura_images_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/6d2fe270a4750bc5332d" target="_blank">/app/views/pictoura_images/show.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/7442b4f61c4965c5fad1" target="_blank">/app/assets/stylesheets/pictoura_image_show.css.scss</a><br/>
+                    <a href="https://gist.github.com/rdias23/42b42df234594c0387f7" target="_blank">/app/assets/javascripts/users/follow_button_three_per_page.js</a><br/>
+                  </p>
+
+                </div>
+
+              </div>
+
+              <div class="ubi_project_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/image_yelp.png" title="Image Yelp at <a href='http://www.pictoura.com/pictoura_images/47779/yelp'> www.pictoura.com/pictoura_images/47779/yelp </a>" ><img src="images/image_yelp.png" alt="image_yelp_pic" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header" style="width: 100%; width: -webkit-calc(100% - 236px); width: -moz-calc(100% - 236px); width: calc(100% - 236px);">
+                  <h1> Image Yelp </h1>
+                </div>
+
+                <div class="ubi_project_block_description" style="width: 100%; width: -webkit-calc(100% - 236px); width: -moz-calc(100% - 236px); width: calc(100% - 236px);">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: Every Image Show page has a corresponding Yelp page that allows the User to sort the businesses in the surrounding area by category.
+
+                    <br/><br/>
+                    Link: <a href="http://www.pictoura.com/pictoura_images/47779/yelp#yelp_listings">http://www.pictoura.com/pictoura_images/47779/yelp#yelp_listings</a>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/4469d46584922d7be93c" target="_blank">/app/controllers/pictoura_images_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/94b6b680d3984d189b3f" target="_blank">/app/views/pictoura_images/yelp.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/cc72d37fcbad7e4e3914" target="_blank">/app/assets/javascripts/pictoura_images/yelp_more_and_filter.js</a><br/>
+                    <a href="https://gist.github.com/rdias23/284b25fe815a5b6d088a" target="_blank">/app/assets/stylesheets/pictoura_image_yelp.css.scss</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_project_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/image_wikipedia.png" title="Image Wikipedia at <a href='http://www.pictoura.com/pictoura_images/47779/wikipedia'> www.pictoura.com/picto.../47779/wikipedia </a>" ><img src="images/image_wikipedia.png" alt="image_wikipedia_pic" class="ubi_project_block_img" > </a>
+
+                <div class="ubi_project_block_header" style="width: 100%; width: -webkit-calc(100% - 236px); width: -moz-calc(100% - 236px); width: calc(100% - 236px);">
+                  <h1> Image Wikipedia </h1>
+                </div>
+
+                <div class="ubi_project_block_description" style="width: 100%; width: -webkit-calc(100% - 236px); width: -moz-calc(100% - 236px); width: calc(100% - 236px);">
+                  <p>
+                    <span class="bold_lead">Project Description</span>: Every Image Show page has a corresponding Wikipedia page that shows the article goe-tagged closest to the location of the image.
+                    <br/><br/>
+                    Link: <a href="http://www.pictoura.com/pictoura_images/47779/wikipedia#wiki_article">http://www.pictoura.com/pictoura_images/47779/wikipedia#wiki_article</a>
+                  </p>
+                </div>
+
+                <div class="ubi_project_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/cc31239c06b3908667f8" target="_blank">/app/controllers/pictoura_images_controller.rb</a><br/>
+                    <a href="https://gist.github.com/rdias23/8f1a5a13cc02945524ec" target="_blank">/app/views/pictoura_images/wikipedia.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/f3994f94a48d6367c56a" target="_blank">/app/assets/stylesheets/pictoura_image_wikipedia.css.scss</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div id="ubi_responsive_design">
+
+              <!-- Here are some Responsive Designs. -->
+
+              <div class="ubi_designs_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/pro_show.png" title="Check it out: <a href='http://pictoura-staging.herokuapp.com/users/52'> http://pictoura-staging.herokuapp.com/users/52 </a>" ><img src="images/pro_show.png" alt="pro_show" class="ubi_designs_block_img" > </a>
+
+                <div class="ubi_designs_block_header" style="width: 100%; width: -webkit-calc(100% - 198px); width: -moz-calc(100% - 198px); width: calc(100% - 198px);">
+                  <h1> Ace Profile</h1>
+                </div>
+
+                <div class="ubi_designs_block_description" style="width: 100%; width: -webkit-calc(100% - 198px); width: -moz-calc(100% - 198px); width: calc(100% - 198px);">
+                  <p>
+                    <span class="bold_lead">Design Description</span>: Users that purchase Ace Profile Memberships have a premium profile page. In addition to the superior feel, Ace Members may select featured images and upload a 'cover image' to be displayed at the top.<br/><br/>
+                    Link: <a href='http://pictoura-staging.herokuapp.com/users/52'> http://pictoura-staging.herokuapp.com/users/52 </a>
+                  </p>
+                </div>
+
+                <div class="ubi_designs_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/1b2832ba57e5b4cc96cd" target="_blank">/app/views/users/pro_show.html.erb & partials</a><br/>
+                    <a href="https://gist.github.com/rdias23/e17be904321dffe48976" target="_blank">/app/assets/stylesheets/user_pro_show.css.scss</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_designs_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/upgrade_landing.png" title="Check it out: <a href='http://www.pictoura.com/landing/upgrade'>http://www.pictoura.com/landing/upgrade</a>" ><img src="images/upgrade_landing.png" alt="upgrade_landing" class="ubi_designs_block_img" > </a>
+
+                <div class="ubi_designs_block_header" style="width: 100%; width: -webkit-calc(100% - 309px); width: -moz-calc(100% - 309px); width: calc(100% - 309px);">
+                  <h1> Upgrade Landing</h1>
+                </div>
+
+                <div class="ubi_designs_block_description" style="width: 100%; width: -webkit-calc(100% - 309px); width: -moz-calc(100% - 309px); width: calc(100% - 309px);">
+                  <p>
+                    <span class="bold_lead">Design Description</span>: The Upgrade Landing page describes the benefits of various Membership types.<br/><br/>
+                    Link:<a href="http://www.pictoura.com/landing/upgrade">http://www.pictoura.com/landing/upgrade</a>
+                  </p>
+                </div>
+
+                <div class="ubi_designs_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/6f4111b0c548c5d6e166" target="_blank">/app/views/landing/upgrade.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/febd512a621e99645ea8" target="_blank">/app/assets/stylesheets/landing/upgrade.css.scss</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_designs_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/advertise_landing.png" title="Check it out: <a href='http://www.pictoura.com/content_pages/advertise'> http://www.pictoura.com/content_pages/advertise </a>" ><img src="images/advertise_landing.png" alt="" class="ubi_designs_block_img" > </a>
+
+                <div class="ubi_designs_block_header" style="width: 100%; width: -webkit-calc(100% - 334px); width: -moz-calc(100% - 334px); width: calc(100% - 334px);">
+                  <h1> Ad Landing</h1>
+                </div>
+
+                <div class="ubi_designs_block_description" style="width: 100%; width: -webkit-calc(100% - 334px); width: -moz-calc(100% - 334px); width: calc(100% - 334px);">
+                  <p>
+                    <span class="bold_lead">Design Description</span>: The Advertising Landing page describes the benefits of advertising with Pictoura.<br/><br/>
+                    Link: <a href='http://www.pictoura.com/content_pages/advertise'> http://www.pictoura.com/content_pages/advertise </a>
+                  </p>
+                </div>
+
+                <div class="ubi_designs_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/59e458fe198347b5659d" target="_blank">/app/views/content_pages/advertise.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/c3a655e139e41029abec" target="_blank">/app/assets/stylesheets/promote.css.scss</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_designs_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/book_builder.png" title="Check it out: <a href='http://www.pictoura.com/landing/book_builder'> http://www.pictoura.com/landing/book_builder </a>" ><img src="images/book_builder.png" alt="" class="ubi_designs_block_img" > </a>
+
+                <div class="ubi_designs_block_header" style="width: 100%; width: -webkit-calc(100% - 302px); width: -moz-calc(100% - 302px); width: calc(100% - 302px);">
+                  <h1>Book Landing </h1>
+                </div>
+
+                <div class="ubi_designs_block_description" style="width: 100%; width: -webkit-calc(100% - 302px); width: -moz-calc(100% - 302px); width: calc(100% - 302px);">
+                  <p>
+                    <span class="bold_lead">Design Description</span>: The Book Builder landing page describes the features of the Book Builder.
+                    <br/><br/>
+                    Link:<a href='http://www.pictoura.com/landing/book_builder'> http://www.pictoura.com/landing/book_builder </a>
+                  </p>
+                </div>
+
+                <div class="ubi_designs_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/a05feda7f5f28f1c4830" target="_blank">/app/views/landing/book_builder.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/9b61c0dfdec07c464ae7" target="_blank">/app/assets/stylesheets/landing/book_builder.css.scss</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+              <div class="ubi_designs_block" style="margin-top: 0px;">
+
+                <a class="fancybox" href="images/travelog_landing.png" title="Check it out: <a href='http://www.pictoura.com/landing/travelog'>http://www.pictoura.com/landing/travelog </a>" ><img src="images/travelog_landing.png" alt="travelog_landing" class="ubi_designs_block_img" > </a>
+
+                <div class="ubi_designs_block_header" style="width: 100%; width: -webkit-calc(100% - 314px); width: -moz-calc(100% - 314px); width: calc(100% - 314px);">
+                  <h1> Travelog Landing</h1>
+                </div>
+
+                <div class="ubi_designs_block_description" style="width: 100%; width: -webkit-calc(100% - 314px); width: -moz-calc(100% - 314px); width: calc(100% - 314px);">
+                  <p>
+                    <span class="bold_lead">Design Description</span>: The Travelog landing page describes Travelog features.
+                    <br/><br/>
+                    Link: <a href='http://www.pictoura.com/landing/travelog'>http://www.pictoura.com/landing/travelog </a>
+                  </p>
+                </div>
+
+                <div class="ubi_designs_block_links">
+                  <p>
+                    <span class="bold_lead">Code Links</span>:<br/>
+
+                    <a href="https://gist.github.com/rdias23/fc61b52a27a27dd1a92a" target="_blank">/app/views/landing/travelog.html.erb</a><br/>
+                    <a href="https://gist.github.com/rdias23/06a7393053cc09761fe6" target="_blank">/app/assets/stylesheets/landing/travelog.css.scss</a><br/>
+                  </p>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+    </div>
+
+
+</div>
+</body>
+
+<script src="site.js"></script>
+</html>
